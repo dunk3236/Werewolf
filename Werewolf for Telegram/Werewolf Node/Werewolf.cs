@@ -949,8 +949,6 @@ namespace Werewolf_Node
                         player.FirstStone++;
                         NoOneCastLynch = false;
                     }
-                    else
-                        player.FirstStone = 0;
 
                     if (player.FirstStone == 5)
                     {
